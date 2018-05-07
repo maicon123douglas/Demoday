@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ForEat</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,10 +17,13 @@
     <!-- sidebar -->
     <div class="sidebar">
         <ul>
+            <li class="home">Início</li>
             <li class="details1">Mais detalhes</li>
-            <li><a href="#">Nossa missão</a></li>
-            <li><a href="#">Outras dúvidas</a></li>
-            <li><a>Cadastro</a></li>
+            <li class="missao">Nossa missão</li>
+            <li class="duvidas">Outras dúvidas</li>
+            <li class="Cadastro1">Cadastro Eaters</li>
+            <li class="Cadastro2">Cadastro ForEater</li>
+            
         </ul>
     </div>
     <!--fim sidebar  -->
@@ -41,6 +44,7 @@
 <section>
     <div class="cadastro">
         <div class="cadastros-insert">
+            <h2>Cadastro Eaters</h2>
             <p>Nome</p>
             <input type="text" placeholder"Digite seu nome">
             <p>Apelido Eater</p>
@@ -56,10 +60,10 @@
             <p>Endereço</p>
             <input type="text" placeholder"Digite seu endereço">
             <div class="botaoCadastrarVoltar">
-                <button id="botaoCadastrar">
+                <button class="botaoCadastrar">
                     <span>Cadastrar</span>
                 </button>
-                <button id="botao2">
+                <button class="btnVoltar">
                     <span>voltar</span>
                 </button>
             </div>
@@ -69,13 +73,51 @@
 <!-- fim pagina 2 -->
 <!-- inicio pagina 3 -->
 <section>
-    <h1>Pagina 3</h1>
-    <button id="botao3">
+    <h2>Detalhes</h2>   
+    <button class="btnVoltar">
         <span>Página inicial</span>
     </button>
 </section>
-<!-- fim pagina 3 -->
-
+<!-- section missão -->
+<section>
+    <h2>Missão</h2>
+</section>
+<!-- fim da section missão -->
+<!-- section dúvidas -->
+<section>
+    Dúvidas
+</section>
+<section>
+    <div class="cadastro">
+        <div class="cadastros-insert">
+            <h2>Cadastro ForEaters</h2>
+            <p>Nome</p>
+            <input type="text" placeholder"Digite seu nome">
+            <p>Nome ForEater</p>
+            <input type="text" placeholder"Digite seu nome">
+            <p>Número</p>
+            <input type="text" placeholder"dDigite seu número">
+            <p>Data de nascimento</p>
+            <input type="text" placeholder"Digite sua data de nascimento">
+            <p>e-mail</p>
+            <input type="text" placeholder"Digite seu E-mail">
+            <p>CPF</p>
+            <input type="text" placeholder"Digite seu CPF">
+            <p>Endereço</p>
+            <input type="text" placeholder"Digite seu endereço">
+            <p>O que você sabe fazer no fogão ?</p>
+            <input type="text" placeholder"Digite o que sabe fazer no fogão">
+            <div class="botaoCadastrarVoltar">
+                <button class="botaoCadastrar">
+                    <span>Cadastrar</span>
+                </button>
+                <button class="btnVoltar">
+                    <span>voltar</span>
+                </button>
+            </div>
+        </div>
+    </div>    
+</section>
 <script src="scripts.js"></script>
 </body>
 </html>
